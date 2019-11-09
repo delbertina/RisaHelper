@@ -2,7 +2,7 @@
 
 ## Site Links
 
-[Main Page](https://delbertina.github.io/RisaHelper/)
+[Main Page](https://delbertina.github.io/risa-helper/)
 
 # How to Run
 
