@@ -9,10 +9,10 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 export class VoteAllComponent implements OnInit {
 
   buttonList = [
-    'https://minecraftservers.org/vote/426251',
+    'https://minecraftservers.org/vote/426251/',
     'https://minecraft-server-list.com/server/391863/vote/',
-    'https://top-minecraft-servers.com/server/magnarisa/',
-    'https://topg.org/Minecraft/in-457199',
+    'https://top-minecraft-servers.com/server/magnarisa',
+    'https://topg.org/Minecraft/in-457199/',
     'https://minecraft-mp.com/server/154182/vote/',
     'https://www.planetminecraft.com/server/magnarisa/vote/',
     'https://minecraft-server.net/vote/magnarisa/',
