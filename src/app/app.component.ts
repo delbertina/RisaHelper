@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'risa-helper';
+
+  constructor(private router: Router){}
+
+  clickButton() {
+    this.router.navigate(['/vote']);
+  }
 }
+
