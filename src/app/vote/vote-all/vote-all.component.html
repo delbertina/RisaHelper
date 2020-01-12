@@ -1,4 +1,5 @@
 <div class="outside-div">
-    <button *ngFor="let item of buttonList; let i = index" (click)="changeSite(i)">{{i + 1}}</button>
+    <button *ngFor="let item of buttonList; let i = index" (click)="changeSite(i)" [ngClass]="{'button-selected': isButtonSelected(i)}" >{{i + 1}}</button>
+    <button (click)="openNewTab()">Open in New Tab</button>
 </div>
-<iframe width="100%" height="700px" [src]="currentSiteURL"></iframe>
+<iframe class="vote-view" [src]="currentSiteURL"></iframe>

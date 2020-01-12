@@ -11,13 +11,13 @@ export class VoteAllComponent implements OnInit {
   buttonList = [
     'https://minecraftservers.org/vote/426251/',
     'https://minecraft-server-list.com/server/391863/vote/',
-    'https://top-minecraft-servers.com/server/magnarisa',
-    'https://topg.org/Minecraft/in-457199/',
+    'https://top-minecraft-servers.com/server/magnarisa/16/vote',
+    'https://topg.org/Minecraft/in-457199',
     'https://minecraft-mp.com/server/154182/vote/',
     'https://www.planetminecraft.com/server/magnarisa/vote/',
     'https://minecraft-server.net/vote/magnarisa/',
     'https://minecraftservers.biz/servers/145864/',
-    'https://topminecraftservers.org/server/9725',
+    'https://topminecraftservers.org/vote/9725',
     'https://minecraftlist.org/vote/14561 ',
     'https://serverlist.games/vote/2378',
     'https://mc-servers.com/mcvote/3664/',
@@ -26,10 +26,13 @@ export class VoteAllComponent implements OnInit {
   ]
 
   currentSiteURL: SafeResourceUrl;
+  currentId: number;
 
   constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
+    this.currentSiteURL = this.sanitizer.bypassSecurityTrustResourceUrl(this.buttonList[0]);
+    this.currentId = 0;
   }
 
   changeSite(id: number) {
@@ -38,7 +41,15 @@ export class VoteAllComponent implements OnInit {
       return;
     } else {
       this.currentSiteURL = this.sanitizer.bypassSecurityTrustResourceUrl(this.buttonList[id]);
+      this.currentId = id;
     }
   }
 
+  isButtonSelected(id: number) {
+    return id === this.currentId;
+  }
+
+  openNewTab() {
+    window.open(this.buttonList[this.currentId], "_blank");
+  }
 }
