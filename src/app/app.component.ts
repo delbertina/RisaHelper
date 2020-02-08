@@ -12,11 +12,13 @@ export class AppComponent {
   constructor(private router: Router){}
 
   clickVoteButton() {
+    console.log('Vote Clicked');
     this.router.navigate(['/vote']);
   }
 
   clickHomeButton() {
-    this.router.navigate(['/']);
+    console.log('Home Clicked');
+    this.router.navigate(['/home']);
   }
 }
 
