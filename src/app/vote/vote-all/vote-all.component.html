@@ -1,5 +1,9 @@
 <div class="outside-div">
-    <button *ngFor="let item of buttonList; let i = index" (click)="changeSite(i)" [ngClass]="{'button-selected': isButtonSelected(i)}" >{{i + 1}}</button>
-    <button (click)="openNewTab()">Open in New Tab</button>
+    <div class="site-button-container">
+        <button mat-raised-button class="site-button" *ngFor="let item of buttonList; let i = index" (click)="changeSite(i)" [color]="isButtonSelected(i) ? 'primary' : 'accent'" >{{i + 1}}</button>
+    </div>
+    <div>
+        <button mat-raised-button class="site-button" (click)="openNewTab()">Open in New Tab</button>
+    </div>
 </div>
 <iframe class="vote-view" [src]="currentSiteURL"></iframe>

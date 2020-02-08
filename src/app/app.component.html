@@ -1,3 +1,6 @@
-<h1>Future MagnaRisa Helper Site!</h1>
-<button (click)="clickButton()">Go Vote!</button>
+<mat-toolbar color="primary">
+    <button mat-button (click)="clickHomeButton()"><h2>delbertina's MagnaRisa Helper Site</h2></button>
+    <span class="fill-remaining-space"></span>
+    <button mat-raised-button (click)="clickVoteButton()">Vote</button>
+</mat-toolbar>
 <router-outlet></router-outlet>

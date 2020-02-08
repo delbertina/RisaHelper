@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
@@ -11,7 +11,6 @@ export class VoteAllComponent implements OnInit {
   buttonList = [
     'https://minecraftservers.org/vote/426251/',
     'https://minecraft-server-list.com/server/391863/vote/',
-    'https://top-minecraft-servers.com/server/magnarisa/16/vote',
     'https://topg.org/Minecraft/in-457199',
     'https://minecraft-mp.com/server/154182/vote/',
     'https://www.planetminecraft.com/server/magnarisa/vote/',
@@ -22,7 +21,6 @@ export class VoteAllComponent implements OnInit {
     'https://serverlist.games/vote/2378',
     'https://mc-servers.com/mcvote/3664/',
     'https://www.minevotes.com/vote/582',
-    'https://craft-list.net/minecraft-server/MagnaRisa-SMP/vote'
   ]
 
   currentSiteURL: SafeResourceUrl;
