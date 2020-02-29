@@ -1,9 +1,22 @@
-<div class="outside-div">
+<mat-toolbar color="primary">
+  <div style="margin-right: 5px;">
+    <button mat-raised-button (click)="openNewTab()">Open in New Tab</button>
+  </div>
+  <div class="grid-container">
+    <button mat-raised-button class="grid-item" *ngFor="let item of buttonList; let i = index" (click)="changeSite(i)"
+      [color]="isButtonSelected(i)">{{i + 1}}</button>
+  </div>
+</mat-toolbar>
+
+<iframe class="vote-view" [src]="currentSiteURL"></iframe>
+
+
+<!-- <div class="outside-div">
     <div class="site-button-container">
         <button mat-raised-button class="site-button" *ngFor="let item of buttonList; let i = index" (click)="changeSite(i)" [color]="isButtonSelected(i) ? 'primary' : 'accent'" >{{i + 1}}</button>
     </div>
     <div>
         <button mat-raised-button class="site-button" (click)="openNewTab()">Open in New Tab</button>
     </div>
-</div>
-<iframe class="vote-view" [src]="currentSiteURL"></iframe>
+</div> -->
+

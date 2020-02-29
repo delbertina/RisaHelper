@@ -21,7 +21,9 @@ export class VoteAllComponent implements OnInit {
     'https://serverlist.games/vote/2378',
     'https://mc-servers.com/mcvote/3664/',
     'https://www.minevotes.com/vote/582',
-  ]
+  ];
+
+  opened: boolean[] = [true];
 
   currentSiteURL: SafeResourceUrl;
   currentId: number;
@@ -38,16 +40,23 @@ export class VoteAllComponent implements OnInit {
     if (id < 0 || id > this.buttonList.length - 1) {
       return;
     } else {
+      this.opened[id] = true;
       this.currentSiteURL = this.sanitizer.bypassSecurityTrustResourceUrl(this.buttonList[id]);
       this.currentId = id;
     }
   }
 
   isButtonSelected(id: number) {
-    return id === this.currentId;
+    if (id === this.currentId) {
+      return 'primary';
+    } else if (this.opened[id]) {
+      return 'success';
+    } else {
+      return 'accent';
+    }
   }
 
   openNewTab() {
-    window.open(this.buttonList[this.currentId], "_blank");
+    window.open(this.buttonList[this.currentId], '_blank');
   }
 }
