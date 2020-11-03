@@ -2,3 +2,17 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body::-webkit-scrollbar, .grid-container::-webkit-scrollbar {
+  height: 10px;
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track, .grid-container::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb, .grid-container::-webkit-scrollbar-thumb {
+  background-color: gray;
+  outline: #a9a9a9 solid 1px;
+}
