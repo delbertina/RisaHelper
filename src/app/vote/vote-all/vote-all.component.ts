@@ -1,4 +1,5 @@
 import { Component, OnInit} from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
@@ -33,7 +34,9 @@ export class VoteAllComponent implements OnInit {
   public currentSiteURL: SafeResourceUrl;
   public currentId: number = 0;
 
-  constructor(private sanitizer: DomSanitizer) { }
+  constructor(
+    private sanitizer: DomSanitizer,
+    public dialog: MatDialog) { }
 
   ngOnInit() {
     this.changeSite(0);
@@ -72,8 +75,18 @@ export class VoteAllComponent implements OnInit {
   }
 
   public askOpenNewTab(): void {
-    if (window.confirm("This vote site has their cookie settings restricted and may not function correctly from within this helper site. \nOpen in new tab?")) {
-      this.openNewTab();
-    }
+    const dialogRef = this.dialog.open(VoteCookieInfoDialog);
+
+    dialogRef.afterClosed().subscribe(result => {
+      if (result) {
+        this.openNewTab();
+      }
+    });
   }
 }
+
+@Component({
+  selector: 'vote-cookie-info-dialog',
+  templateUrl: 'vote-cookie-info-dialog.html',
+})
+export class VoteCookieInfoDialog {}
