@@ -6,20 +6,6 @@
     <button mat-raised-button class="grid-item" *ngFor="let item of buttonList; let i = index" (click)="changeSite(i)"
       [color]="isButtonSelected(i)">{{i + 1}}</button>
   </div>
-  <div style="margin-left: 5px;">
-    <button mat-raised-button (click)="openAllNewTab()">Open All in New Tab</button>
-  </div>
 </mat-toolbar>
 
 <iframe class="vote-view" [src]="currentSiteURL"></iframe>
-
-
-<!-- <div class="outside-div">
-    <div class="site-button-container">
-        <button mat-raised-button class="site-button" *ngFor="let item of buttonList; let i = index" (click)="changeSite(i)" [color]="isButtonSelected(i) ? 'primary' : 'accent'" >{{i + 1}}</button>
-    </div>
-    <div>
-        <button mat-raised-button class="site-button" (click)="openNewTab()">Open in New Tab</button>
-    </div>
-</div> -->
-

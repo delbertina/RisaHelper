@@ -33,6 +33,7 @@ export class VoteAllComponent implements OnInit {
   public opened: boolean[] = [true];
   public currentSiteURL: SafeResourceUrl;
   public currentId: number = 0;
+  public preLoaded = false;
 
   constructor(
     private sanitizer: DomSanitizer,
@@ -42,11 +43,15 @@ export class VoteAllComponent implements OnInit {
     this.changeSite(0);
   }
 
+  public get sanitizedButtonList(): SafeResourceUrl[] {
+    return this.buttonList.map(button => this.sanitizer.bypassSecurityTrustResourceUrl(button));
+  }
+
   public changeSite(id: number): void {
     // If input is between 0 and lenth - 1
     if (id > -1 && id < this.buttonList.length - 1) {
       this.opened[id] = true;
-      this.currentSiteURL = this.sanitizer.bypassSecurityTrustResourceUrl(this.buttonList[id]);
+      this.currentSiteURL = this.sanitizedButtonList[id];
       this.currentId = id;
       if (this.restrictedCookieList[id]) {
         this.askOpenNewTab();
@@ -66,12 +71,6 @@ export class VoteAllComponent implements OnInit {
 
   public openNewTab(inputId?: number): void {
     window.open(this.buttonList[inputId ? inputId : this.currentId], '_blank');
-  }
-
-  public openAllNewTab(): void {
-    this.buttonList.forEach((button, index) => {
-      this.openNewTab(index);
-    });
   }
 
   public askOpenNewTab(): void {
