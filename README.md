@@ -19,6 +19,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+(Do command `ng build --prod --base-Href="https://delbertina.github.io/risa-helper/" --output-path="docs/"` to build correctly for this project before you push or PR)
 
 ## Running unit tests
 

@@ -8,7 +8,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class VoteAllComponent implements OnInit {
 
-  buttonList = [
+  public buttonList = [
     'https://minecraftservers.org/vote/426251/',
     'https://minecraft-server-list.com/server/391863/vote/',
     'https://topg.org/Minecraft/in-457199',
@@ -23,30 +23,35 @@ export class VoteAllComponent implements OnInit {
     'https://www.minevotes.com/vote/582',
   ];
 
-  opened: boolean[] = [true];
+  public restrictedCookieList = [
+    true, true, true, true,
+    false, false, false, false,
+    false, false, false, false
+  ]
 
-  currentSiteURL: SafeResourceUrl;
-  currentId: number;
+  public opened: boolean[] = [true];
+  public currentSiteURL: SafeResourceUrl;
+  public currentId: number = 0;
 
   constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
-    this.currentSiteURL = this.sanitizer.bypassSecurityTrustResourceUrl(this.buttonList[0]);
-    this.currentId = 0;
+    this.changeSite(0);
   }
 
-  changeSite(id: number) {
-    // If input is not between 0 and lenth - 1
-    if (id < 0 || id > this.buttonList.length - 1) {
-      return;
-    } else {
+  public changeSite(id: number): void {
+    // If input is between 0 and lenth - 1
+    if (id > -1 && id < this.buttonList.length - 1) {
       this.opened[id] = true;
       this.currentSiteURL = this.sanitizer.bypassSecurityTrustResourceUrl(this.buttonList[id]);
       this.currentId = id;
+      if (this.restrictedCookieList[id]) {
+        this.askOpenNewTab();
+      }
     }
   }
 
-  isButtonSelected(id: number) {
+  public isButtonSelected(id: number): string {
     if (id === this.currentId) {
       return 'primary';
     } else if (this.opened[id]) {
@@ -56,7 +61,19 @@ export class VoteAllComponent implements OnInit {
     }
   }
 
-  openNewTab() {
-    window.open(this.buttonList[this.currentId], '_blank');
+  public openNewTab(inputId?: number): void {
+    window.open(this.buttonList[inputId ? inputId : this.currentId], '_blank');
+  }
+
+  public openAllNewTab(): void {
+    this.buttonList.forEach((button, index) => {
+      this.openNewTab(index);
+    });
+  }
+
+  public askOpenNewTab(): void {
+    if (window.confirm("This vote site has their cookie settings restricted and may not function correctly from within this helper site. \nOpen in new tab?")) {
+      this.openNewTab();
+    }
   }
 }
