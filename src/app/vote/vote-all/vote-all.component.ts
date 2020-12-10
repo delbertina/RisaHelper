@@ -48,8 +48,8 @@ export class VoteAllComponent implements OnInit {
   }
 
   public changeSite(id: number): void {
-    // If input is between 0 and lenth - 1
-    if (id > -1 && id < this.buttonList.length - 1) {
+    // If input is between -1 and lenth
+    if (id > -1 && id < this.buttonList.length) {
       this.opened[id] = true;
       this.currentSiteURL = this.sanitizedButtonList[id];
       this.currentId = id;
