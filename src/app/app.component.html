@@ -1,6 +1,11 @@
 <mat-toolbar color="primary">
+    <button mat-icon-button>
+        <mat-icon>menu</mat-icon>
+    </button>
     <button mat-button (click)="clickHomeButton()"><h2>delbertina's MagnaRisa Helper Site</h2></button>
     <span class="fill-remaining-space"></span>
-    <button mat-raised-button (click)="clickVoteButton()">Vote</button>
+    <button mat-icon-button (click)="clickVoteButton()">
+        <mat-icon>how_to_vote</mat-icon>
+    </button>
 </mat-toolbar>
 <router-outlet></router-outlet>
