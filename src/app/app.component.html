@@ -1,10 +1,40 @@
 <mat-toolbar color="primary">
-    <button mat-icon-button>
+    <button mat-icon-button [matMenuTriggerFor]="navMenu">
         <mat-icon>menu</mat-icon>
     </button>
-    <button mat-button (click)="clickHomeButton()"><h2>delbertina's MagnaRisa Helper Site</h2></button>
+    <mat-menu #navMenu="matMenu">
+        <button mat-menu-item [routerLink]="'rules'">
+            <mat-icon>gavel</mat-icon>
+            <span>Our Rules</span>
+        </button>
+        <button mat-menu-item [routerLink]="'vote'">
+            <mat-icon>how_to_vote</mat-icon>
+            <span>Vote Links</span>
+        </button>
+        <button mat-menu-item [routerLink]="'map'">
+            <mat-icon>map</mat-icon>
+            <span>Server Map</span>
+        </button>
+        <button mat-menu-item [routerLink]="'plugins'">
+            <mat-icon>extension</mat-icon>
+            <span>Plugin Info</span>
+        </button>
+        <button mat-menu-item [routerLink]="'clubs'">
+            <mat-icon>groups</mat-icon>
+            <span>Our Clubs</span>
+        </button>
+        <button mat-menu-item [routerLink]="'about'">
+            <mat-icon>info</mat-icon>
+            <span>About Us</span>
+        </button>
+        <button mat-menu-item [routerLink]="'contact'">
+            <mat-icon>alternate_email</mat-icon>
+            <span>Contact Us</span>
+        </button>
+    </mat-menu>
+    <button mat-button [routerLink]="'home'"><h2>delbertina's MagnaRisa Helper Site</h2></button>
     <span class="fill-remaining-space"></span>
-    <button mat-icon-button (click)="clickVoteButton()">
+    <button mat-icon-button [routerLink]="'vote'">
         <mat-icon>how_to_vote</mat-icon>
     </button>
 </mat-toolbar>

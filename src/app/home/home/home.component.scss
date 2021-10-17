@@ -1,0 +1,30 @@
+.content-card {
+    margin: 20px;
+    min-height: 200px;
+}
+
+.main-card {
+    min-height: 400px;
+    min-width: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.youtube-frame {
+    display: block;
+    border: none;
+    height: 480px;
+    width: 768px;
+    flex-shrink: 0;
+}
+
+.home-content-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .content-card {
+        max-width: 300px;
+    }
+}

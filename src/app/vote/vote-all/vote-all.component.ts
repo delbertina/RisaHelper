@@ -5,7 +5,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 @Component({
   selector: 'app-vote-all',
   templateUrl: './vote-all.component.html',
-  styleUrls: ['./vote-all.component.css']
+  styleUrls: ['./vote-all.component.scss']
 })
 export class VoteAllComponent implements OnInit {
 

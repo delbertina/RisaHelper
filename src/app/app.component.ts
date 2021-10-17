@@ -10,15 +10,5 @@ export class AppComponent {
   title = 'risa-helper';
 
   constructor(private router: Router){}
-
-  clickVoteButton() {
-    console.log('Vote Clicked');
-    this.router.navigate(['/vote']);
-  }
-
-  clickHomeButton() {
-    console.log('Home Clicked');
-    this.router.navigate(['/home']);
-  }
 }
 

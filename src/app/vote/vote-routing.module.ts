@@ -4,7 +4,7 @@ import { VoteAllComponent } from './vote-all/vote-all.component';
 
 
 const routes: Routes = [
-  { path: 'vote', component: VoteAllComponent, pathMatch: 'full' }
+  { path: 'vote', component: VoteAllComponent }
 ];
 
 @NgModule({
