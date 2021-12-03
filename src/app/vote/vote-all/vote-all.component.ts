@@ -32,9 +32,9 @@ export class VoteAllComponent implements OnInit {
   public restrictedCookieList = [
     false, true, true, true,
     true, true, false, false,
-    false, false, false, false,
-    false, false, false, false,
-    false
+    false, false, false, true,
+    true, false, false, true,
+    true
   ]
 
   public opened: boolean[] = [true];
@@ -57,6 +57,7 @@ export class VoteAllComponent implements OnInit {
   public changeSite(id: number): void {
     // If input is between -1 and lenth
     if (id > -1 && id < this.buttonList.length) {
+      this.currentSiteURL = "about:blank";
       this.opened[id] = true;
       this.currentSiteURL = this.sanitizedButtonList[id];
       this.currentId = id;
