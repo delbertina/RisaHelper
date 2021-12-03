@@ -10,24 +10,31 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 export class VoteAllComponent implements OnInit {
 
   public buttonList = [
+    'https://www.planetminecraft.com/server/magnarisa/vote/',
     'https://minecraftservers.org/vote/426251/',
     'https://minecraft-server-list.com/server/391863/vote/',
     'https://topg.org/Minecraft/in-457199',
     'https://minecraft-mp.com/server/154182/vote/',
-    'https://www.planetminecraft.com/server/magnarisa/vote/',
     'https://minecraft-server.net/vote/magnarisa/',
     'https://minecraftservers.biz/servers/145864/',
     'https://topminecraftservers.org/vote/9725',
     'https://minecraftlist.org/vote/14561 ',
     'https://serverlist.games/vote/2378',
     'https://mc-servers.com/mcvote/3664/',
-    'https://www.minevotes.com/vote/582',
+    'https://minecraft.buzz/server/3397&tab=vote',
+    'https://serverlist101.com/server/2727/vote/',
+    'https://craftlist.org/magnarisa-smp',
+    'https://minelist.net/vote/3818',
+    'http://www.serverpact.com/vote-46666',
+    'https://best-minecraft-servers.co/server-magnarisa-smp.2494/vote'
   ];
 
   public restrictedCookieList = [
-    true, true, true, true,
+    false, true, true, true,
+    true, true, false, false,
     false, false, false, false,
-    false, false, false, false
+    false, false, false, false,
+    false
   ]
 
   public opened: boolean[] = [true];
