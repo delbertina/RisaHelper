@@ -1,4 +1,4 @@
-export interface EventsData {
+export interface CardData {
     title: string;
     subtitle: string;
     media: string;

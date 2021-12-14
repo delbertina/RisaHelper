@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {DomSanitizer} from '@angular/platform-browser';
-import { EventsData } from '../../../assets/home/home.type';
+import { CardData } from '../../../assets/shared/card-data.type';
 import events from '../../../assets/home/events.json';
 
 @Component({
@@ -10,16 +9,11 @@ import events from '../../../assets/home/events.json';
 })
 export class HomeComponent implements OnInit {
 
-  currentEvents: EventsData[] = events["current-events"];
-  pastEvents: EventsData[] = events["past-events"];
+  currentEvents: CardData[] = events["current-events"];
+  pastEvents: CardData[] = events["past-events"];
 
-  constructor(private readonly sanitizer: DomSanitizer) { }
+  constructor() { }
 
   ngOnInit() {
   }
-
-  sanitizeURL(input: string) {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(input);
-  }
-
 }

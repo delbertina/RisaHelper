@@ -9,37 +9,11 @@
 </div>
 
 <div class="home-content-grid">
-    <mat-card class="content-card" *ngFor="let event of currentEvents">
-        <mat-card-title>{{event.title}}</mat-card-title>
-        <mat-card-subtitle>{{event.subtitle}}</mat-card-subtitle>
-        <img mat-card-image *ngIf="!event.isYouTube" [src]="sanitizeURL(event.media)" >
-        <div mat-card-image *ngIf="event.isYouTube">
-            <iframe  class="youtube-frame" [src]="sanitizeURL(event.media)"></iframe>
-        </div>
-        <mat-card-content>
-            {{event.body}}
-        </mat-card-content>
-        <mat-card-footer>
-            {{event.ends}}
-        </mat-card-footer>
-    </mat-card>
+    <app-card *ngFor="let event of currentEvents" [CardContent]="event"></app-card>
 </div>
 <mat-toolbar color="accent" class="center-toolbar">
     <h2>Previous Events</h2>
 </mat-toolbar>
 <div class="home-content-grid">
-    <mat-card class="content-card" *ngFor="let event of pastEvents">
-        <mat-card-title>{{event.title}}</mat-card-title>
-        <mat-card-subtitle>{{event.subtitle}}</mat-card-subtitle>
-        <img mat-card-image *ngIf="!event.isYouTube" [src]="sanitizeURL(event.media)" >
-        <div mat-card-image *ngIf="event.isYouTube">
-            <iframe  class="youtube-frame" [src]="sanitizeURL(event.media)"></iframe>
-        </div>
-        <mat-card-content>
-            {{event.body}}
-        </mat-card-content>
-        <mat-card-footer>
-            {{event.ends}}
-        </mat-card-footer>
-    </mat-card>
+    <app-card *ngFor="let event of pastEvents" [CardContent]="event"></app-card>
 </div>

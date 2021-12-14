@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RulesComponent } from './rules/rules.component';
-
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -9,6 +9,7 @@ import { RulesComponent } from './rules/rules.component';
     RulesComponent
   ],
   imports: [
+    SharedModule,
     CommonModule
   ]
 })

@@ -1,1 +1,10 @@
-<p>rules works!</p>
+<div class="top-info">
+    <div class="top-info-body">
+        <h3>Rules List</h3>
+        Wow rules are super cool and stuff. Here's a list of our rules. We strive to keep things fun for everyone
+    </div>
+</div>
+
+<div class="rule-content-grid">
+    <app-card *ngFor="let rule of ruleList" [CardContent]="rule"></app-card>
+</div>

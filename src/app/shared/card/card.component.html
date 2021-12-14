@@ -1,0 +1,14 @@
+<mat-card class="content-card">
+    <mat-card-title>{{CardContent.title}}</mat-card-title>
+    <mat-card-subtitle>{{CardContent.subtitle}}</mat-card-subtitle>
+    <img mat-card-image *ngIf="!CardContent.isYouTube" [src]="sanitizeURL(CardContent.media)" >
+    <div mat-card-image *ngIf="CardContent.isYouTube">
+        <iframe  class="youtube-frame" [src]="sanitizeURL(CardContent.media)"></iframe>
+    </div>
+    <mat-card-content>
+        {{CardContent.body}}
+    </mat-card-content>
+    <mat-card-footer>
+        {{CardContent.ending}}
+    </mat-card-footer>
+</mat-card>

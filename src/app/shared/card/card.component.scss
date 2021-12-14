@@ -1,0 +1,25 @@
+.content-card {
+    margin: 20px;
+    min-height: 200px;
+    max-width: 300px;
+}
+
+.youtube-frame {
+    border: 0;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.mat-card-footer {
+    text-align: end;
+    font-size: 12px;
+    color: #bbbbbb;
+    margin: 0;
+    align-self: flex-end;
+    flex: 1 1 auto;
+}
+
+.mat-card {
+    display: flex;
+    flex-direction: column;
+}
