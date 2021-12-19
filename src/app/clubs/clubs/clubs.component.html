@@ -1,1 +1,10 @@
-<p>clubs works!</p>
+<div class="top-info">
+    <div class="top-info-body">
+        <h3>Club List</h3>
+        Wow, we have a lot of clubs, groups, and teams! Learn about them all!
+    </div>
+</div>
+
+<div class="club-content-grid">
+    <app-card *ngFor="let club of clubList" [CardContent]="club"></app-card>
+</div>

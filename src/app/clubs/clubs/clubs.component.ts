@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CardData } from '../../../assets/shared/card-data.type';
+import clubs from '../../../assets/clubs/clubs.json';
 
 @Component({
   selector: 'app-clubs',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./clubs.component.scss']
 })
 export class ClubsComponent implements OnInit {
+
+  clubList: CardData[] = clubs["club-list"];
 
   constructor() { }
 

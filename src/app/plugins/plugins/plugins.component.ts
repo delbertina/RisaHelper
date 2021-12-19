@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CardData } from '../../../assets/shared/card-data.type';
+import plugins from '../../../assets/plugins/plugins.json';
 
 @Component({
   selector: 'app-plugins',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PluginsComponent implements OnInit {
 
+  pluginList: CardData[] = plugins["plugin-list"];
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

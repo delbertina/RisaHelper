@@ -1,1 +1,10 @@
-<p>plugins works!</p>
+<div class="top-info">
+    <div class="top-info-body">
+        <h3>Plugin List</h3>
+        Plugins are very pog, use this info to know all about plugin stuffs. Get learned fools!
+    </div>
+</div>
+
+<div class="plugin-content-grid">
+    <app-card *ngFor="let plugin of pluginList" [CardContent]="plugin"></app-card>
+</div>

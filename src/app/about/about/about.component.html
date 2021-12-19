@@ -1,1 +1,10 @@
-<p>about works!</p>
+<div class="top-info">
+    <div class="top-info-body">
+        <h3>About Us</h3>
+        Learn the history of this community and what we stand for!
+    </div>
+</div>
+
+<div class="about-content-grid">
+    <app-card *ngFor="let about of aboutList" [CardContent]="about"></app-card>
+</div>

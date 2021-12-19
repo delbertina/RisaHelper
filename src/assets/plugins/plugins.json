@@ -1,0 +1,69 @@
+{
+    "plugin-list":
+    [
+        {
+            "title": "No Griefing",
+            "subtitle": "If it's not yours, don't touch it!",
+            "media": "https://i.imgur.com/5aKgUhL.png",
+            "isYouTube": false,
+            "body": "",
+            "ending": ""
+        },
+        {
+            "title": "No Swearing",
+            "subtitle": "We're family-friendly",
+            "media": "https://i.imgur.com/5aKgUhL.png",
+            "isYouTube": false,
+            "body": "",
+            "ending": ""
+        },
+        {
+            "title": "No Hacking",
+            "subtitle": "We play fair!",
+            "media": "https://i.imgur.com/5aKgUhL.png",
+            "isYouTube": false,
+            "body": "",
+            "ending": ""
+        },
+        {
+            "title": "No Bullying",
+            "subtitle": "Respect each other",
+            "media": "https://i.imgur.com/5aKgUhL.png",
+            "isYouTube": false,
+            "body": "",
+            "ending": ""
+        },
+        {
+            "title": "No Spamming",
+            "subtitle": "Keep chat kosher",
+            "media": "https://i.imgur.com/5aKgUhL.png",
+            "isYouTube": false,
+            "body": "",
+            "ending": ""
+        },
+        {
+            "title": "No Advertising",
+            "subtitle": "Poaching ain't cool",
+            "media": "https://i.imgur.com/5aKgUhL.png",
+            "isYouTube": false,
+            "body": "",
+            "ending": ""
+        },
+        {
+            "title": "English Only",
+            "subtitle": "No habla ingles",
+            "media": "https://i.imgur.com/5aKgUhL.png",
+            "isYouTube": false,
+            "body": "",
+            "ending": ""
+        },
+        {
+            "title": "No Lag Machines",
+            "subtitle": "Save some frames for us",
+            "media": "https://i.imgur.com/5aKgUhL.png",
+            "isYouTube": false,
+            "body": "",
+            "ending": ""
+        }
+    ]
+}

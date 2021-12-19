@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ClubsComponent } from './clubs/clubs.component';
-
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -9,7 +9,8 @@ import { ClubsComponent } from './clubs/clubs.component';
     ClubsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ]
 })
 export class ClubsModule { }
