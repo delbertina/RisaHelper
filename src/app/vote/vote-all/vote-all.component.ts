@@ -25,16 +25,14 @@ export class VoteAllComponent implements OnInit {
     'https://serverlist101.com/server/2727/vote/',
     'https://craftlist.org/magnarisa-smp',
     'https://minelist.net/vote/3818',
-    'http://www.serverpact.com/vote-46666',
-    'https://best-minecraft-servers.co/server-magnarisa-smp.2494/vote'
+    'http://www.serverpact.com/vote-46666'
   ];
 
   public restrictedCookieList = [
-    false, true, true, true,
+    true, true, true, true,
     true, true, false, false,
     false, false, false, true,
-    true, true, true, true,
-    true
+    true, true, true, true
   ]
 
   public opened: boolean[] = [true];
