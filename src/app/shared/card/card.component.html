@@ -5,8 +5,7 @@
     <div mat-card-image *ngIf="CardContent.isYouTube">
         <iframe  class="youtube-frame" [src]="sanitizeURL(CardContent.media)"></iframe>
     </div>
-    <mat-card-content>
-        {{CardContent.body}}
+    <mat-card-content [innerHtml]="CardContent.body">
     </mat-card-content>
     <mat-card-footer>
         {{CardContent.ending}}

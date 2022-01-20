@@ -2,67 +2,51 @@
     "contact-list":
     [
         {
-            "title": "No Griefing",
-            "subtitle": "If it's not yours, don't touch it!",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Discord",
+            "subtitle": "Cross-platform chat and voice",
+            "media": "https://i.imgur.com/aWHel9U.jpg",
             "isYouTube": false,
-            "body": "",
+            "body": "<a href='https://discord.gg/magnarisa'>discord.gg/magnarisa</a>",
             "ending": ""
         },
         {
-            "title": "No Swearing",
-            "subtitle": "We're family-friendly",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Twitter",
+            "subtitle": "Events, happenings, & pog posts",
+            "media": "https://i.imgur.com/MtOoPJw.png",
             "isYouTube": false,
-            "body": "",
+            "body": "<a href='https://twitter.com/MagnaRisa'>@MagnaRisa</a>",
             "ending": ""
         },
         {
-            "title": "No Hacking",
-            "subtitle": "We play fair!",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Steam",
+            "subtitle": "Group up to game!",
+            "media": "https://i.imgur.com/XEhZPkA.png",
             "isYouTube": false,
-            "body": "",
+            "body": "<a href='http://steamcommunity.com/groups/MagnaRisa'>steamcommunity.com/groups/MagnaRisa</a>",
             "ending": ""
         },
         {
-            "title": "No Bullying",
-            "subtitle": "Respect each other",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Instagram",
+            "subtitle": "Cool pictures of builds",
+            "media": "https://i.imgur.com/gjMn4ht.png",
             "isYouTube": false,
-            "body": "",
+            "body": "<a href='https://www.instagram.com/magnarisa/'>@MagnaRisa</a>",
             "ending": ""
         },
         {
-            "title": "No Spamming",
-            "subtitle": "Keep chat kosher",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "YouTube",
+            "subtitle": "Announcement videos",
+            "media": "https://i.imgur.com/FM6Ku4l.png",
             "isYouTube": false,
-            "body": "",
+            "body": "<a href='https://www.youtube.com/channel/UCND37BDx791bBKTF_RjSHaw/featured'>Magna Risa</a>",
             "ending": ""
         },
         {
-            "title": "No Advertising",
-            "subtitle": "Poaching ain't cool",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Reddit",
+            "subtitle": "Post about your builds",
+            "media": "https://i.imgur.com/OwZ5Xtg.jpg",
             "isYouTube": false,
-            "body": "",
-            "ending": ""
-        },
-        {
-            "title": "English Only",
-            "subtitle": "No habla ingles",
-            "media": "https://i.imgur.com/5aKgUhL.png",
-            "isYouTube": false,
-            "body": "",
-            "ending": ""
-        },
-        {
-            "title": "No Lag Machines",
-            "subtitle": "Save some frames for us",
-            "media": "https://i.imgur.com/5aKgUhL.png",
-            "isYouTube": false,
-            "body": "",
+            "body": "<a href='https://www.reddit.com/r/MagnaRisa/'>r/MagnaRisa</a>",
             "ending": ""
         }
     ]
