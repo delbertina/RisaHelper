@@ -6,63 +6,55 @@
             "subtitle": "If it's not yours, don't touch it!",
             "media": "https://i.imgur.com/AOvQ25E.png",
             "isYouTube": false,
-            "body": "",
+            "body": "Do not alter builds that are not yours. Ask permission before editing builds by other players. This includes 'pranking' players whom you have not gotten permission from. This includes farms that are not clearly marked for public use. See also 'Private Property Law'.",
             "ending": ""
         },
         {
-            "title": "No Bad Builds",
+            "title": "No Leaving Bad Builds",
             "subtitle": "Useless, trolly, gaudy, or offensive not allowed!",
             "media": "https://i.imgur.com/akP7vw8.png",
             "isYouTube": false,
-            "body": "",
+            "body": "This includes dirt houses, derp pillars, floating trees, floating platforms, cobblestone boxes, etc. Temporary shelters are fine, but please improve upon or take them down when you're done. Leaving bad builds is classified as griefing.",
             "ending": ""
         },
         {
-            "title": "No Swearing",
-            "subtitle": "We're family-friendly",
-            "media": "https://i.imgur.com/x4NVfCW.png",
+            "title": "No Abandoned Builds",
+            "subtitle": "Hello? Is anybody home?",
+            "media": "https://i.imgur.com/l1Zch15.png",
             "isYouTube": false,
-            "body": "",
+            "body": "Do not leave unfinished or abandoned builds around the server. If you need help with a big project, ask fellow community members for help! If you move your base to a new location, don't forget to clean up your old base so new players can inhabit the area. This is classified as griefing.",
             "ending": ""
         },
         {
-            "title": "No Hacking",
-            "subtitle": "We play fair!",
-            "media": "https://i.imgur.com/7WdPCvq.png",
+            "title": "No Surface Stripping",
+            "subtitle": "Woah, I don't know you like that!",
+            "media": "https://i.imgur.com/XVYIGHZ.png",
             "isYouTube": false,
-            "body": "",
+            "body": "Do not strip mine surface blocks. This includes dirt, sand, gravel, etc. Do not leave undesierable landscape making the land uninhabitable for new players. We ask that at least a layer of blocks is placed back to restore the natural landscape. This is classsified as griefing.",
             "ending": ""
         },
         {
-            "title": "No Bullying",
-            "subtitle": "Respect each other",
-            "media": "https://i.imgur.com/DZVkUzM.png",
+            "title": "No Random Traps",
+            "subtitle": "Got your tongue!",
+            "media": "https://i.imgur.com/e06SJIh.png",
             "isYouTube": false,
-            "body": "",
+            "body": "Only build traps that are obviously on your own land. Random traps around the map are not ok. Random traps are classified as griefing! See also 'Private Property Law'",
             "ending": ""
         },
         {
-            "title": "No Spamming",
-            "subtitle": "Keep chat kosher",
-            "media": "https://i.imgur.com/dTVWChb.png",
+            "title": "No Excessive Entities",
+            "subtitle": "Got enough there, bro?",
+            "media": "https://i.imgur.com/yinYyh0.png",
             "isYouTube": false,
-            "body": "",
+            "body": "We request that you spread our your entities to reduce lag. This includes mobs, as well as placable entities and block entities. There are some hard limits in place to enforce this with placable and block entities. Staff may ask to cull if your area is still laggy regardless of the hard caps. Please be considerate of other players.",
             "ending": ""
         },
         {
-            "title": "No Advertising",
-            "subtitle": "Poaching ain't cool",
-            "media": "https://i.imgur.com/P60U4FB.png",
+            "title": "No Bypassing Locks",
+            "subtitle": "Get juked!",
+            "media": "https://i.imgur.com/RK1R0US.png",
             "isYouTube": false,
-            "body": "",
-            "ending": ""
-        },
-        {
-            "title": "English Only",
-            "subtitle": "No habla ingles",
-            "media": "https://i.imgur.com/CHjiaci.png",
-            "isYouTube": false,
-            "body": "",
+            "body": "Do not bypass locks or blocks preventing entry into an area. This includes any form of glitch. Doors are locked for a reason. This is classified as griefing.",
             "ending": ""
         },
         {
@@ -70,7 +62,135 @@
             "subtitle": "Save some frames for us",
             "media": "https://i.imgur.com/F7w8BDA.png",
             "isYouTube": false,
-            "body": "",
+            "body": "Do not build anything with the purpose to lag the server. This includes redstone contraptions. Redstone is allowed, but do not abuse it. Staff have the final say on if something causes too much lag.",
+            "ending": ""
+        },
+        {
+            "title": "No Automated Grinding",
+            "subtitle": "Where'd you get all those levels?",
+            "media": "https://i.imgur.com/vX7AElF.png",
+            "isYouTube": false,
+            "body": "No McMMO or Jobs automated gain. This includes any builds, mods, macros etc that give you McMMO or Jobs rewards without your input. Being AFK at a farm that accumulates items or mobs for you to collect is within the rules. However, be sure to not circumvent the AFK timeout. Automated grinding is sometimes also referred to as AFK grinding or using an autoclicker. See Also 'Hacking'",
+            "ending": ""
+        },
+        {
+            "title": "No Hacking",
+            "subtitle": "We play fair!",
+            "media": "https://i.imgur.com/7WdPCvq.png",
+            "isYouTube": false,
+            "body": "No modifications that give any unfain advantage over other players. Xray, speed, flying, aimbot, macros, autoclicker, etc. Optifine as well as other mods that just increase FPS are of course allowed. Ask staff about our allowed mods.",
+            "ending": ""
+        },
+        {
+            "title": "No Alt Accounts",
+            "subtitle": "I'm seeing double!",
+            "media": "https://i.imgur.com/AQeQ8J2.png",
+            "isYouTube": false,
+            "body": "Do not utilize multiple accounts. This includes account sharing. Using an alt or shared account to circumvent punishment may result in all accounts involved being blacklisted from having their appeals considered.",
+            "ending": ""
+        },
+        {
+            "title": "English Only",
+            "subtitle": "No habla ingles",
+            "media": "https://i.imgur.com/0y983og.png",
+            "isYouTube": false,
+            "body": "We speak English on this server. Please be respectful and do not speak other languages here. If you do not know how to speak English (how are you reading this?) then this server is probably not for you.",
+            "ending": ""
+        },
+        {
+            "title": "No Swearing",
+            "subtitle": "We're family-friendly",
+            "media": "https://i.imgur.com/x4NVfCW.png",
+            "isYouTube": false,
+            "body": "No profane or offensive language. Ok words include, crap, damn, ass, hell. Attempting to bleep with a * means the same thing and will be punished as such. Use common sense, and be respectful of others.",
+            "ending": ""
+        },
+        {
+            "title": "No Spamming",
+            "subtitle": "Keep chat kosher",
+            "media": "https://i.imgur.com/dTVWChb.png",
+            "isYouTube": false,
+            "body": "Do not create spam messages. Such includes several quick messages, t a l k i n g l i k e t h i s, TALKING LIKE THIS, ᵗₐˡₖᵢⁿ𝓰 ˡᵢₖₑ ᵗʰᵢₛ, etc. Use it, but don't abuse it!",
+            "ending": ""
+        },
+        {
+            "title": "Respect Each Other",
+            "subtitle": "Are ee es pee ee sea tea",
+            "media": "https://i.imgur.com/tP4hjIa.png",
+            "isYouTube": false,
+            "body": "Discrimination is not tolerated. This server is open to ALL ages. Please treat others with a mature attitude.",
+            "ending": ""
+        },
+        {
+            "title": "No Bullying",
+            "subtitle": "Respect each other",
+            "media": "https://i.imgur.com/DZVkUzM.png",
+            "isYouTube": false,
+            "body": "Bullying is not tolerated. No tempting players to the rules. Jokes and banter can go too far if you don't know the person very well. Please stop if asked to do so.",
+            "ending": ""
+        },
+        {
+            "title": "No Advertising",
+            "subtitle": "Poaching ain't cool",
+            "media": "https://i.imgur.com/P60U4FB.png",
+            "isYouTube": false,
+            "body": "Do not advertise other communities. This includes forums, servers, or services. If you have started a sub-community within our community, please utilize the sub community partnership application in discord to gain permission to advertise it in our community. Ask staff if unsure about something being advertising.",
+            "ending": ""
+        },
+        {
+            "title": "No Anti-Advertising",
+            "subtitle": "Get outta my swamp!",
+            "media": "https://i.imgur.com/5DR4Reo.png",
+            "isYouTube": false,
+            "body": "Do not anti-advertise this community. We encourage constructive critisim at our community meetings.",
+            "ending": ""
+        },
+        {
+            "title": "Link Portals Correctly",
+            "subtitle": "Hyeeeeh!",
+            "media": "https://i.imgur.com/rSmqBCi.png",
+            "isYouTube": false,
+            "body": "Please link your nether portals correctly. There is a 48h grace period after creation for the portal to be linked correctly. Use /portal-link in-game for help. Place the nether side portal at y=118. This rule makes it easy for linking to the hub.",
+            "ending": ""
+        },
+        {
+            "title": "Honest Businesses",
+            "subtitle": "If I'm gonna be honest ...",
+            "media": "https://i.imgur.com/dQB1xNw.png",
+            "isYouTube": false,
+            "body": "Businesses must have clearly posted rules at the place of business if there are any special rules. No spamming unprovoked business ads. Interactive businesses must have chances posted and game containers locked as display or donation.",
+            "ending": ""
+        },
+        {
+            "title": "Private Property Law :: #1",
+            "subtitle": "Make your own rules!",
+            "media": "https://i.imgur.com/CTm2bXV.png",
+            "isYouTube": false,
+            "body": "When a player builds something, they are protected by this law. Properties may have their own rules that are displayed in a fair spot for wanderers to see. May protect claimed land in any way seen fit. Players do not set punishment, but if property rules are broken staff will decide the severity of punishment.",
+            "ending": ""
+        },
+        {
+            "title": "Private Property Law :: #2",
+            "subtitle": "Mime in an invisable box",
+            "media": "https://i.imgur.com/TS2OlRc.png",
+            "isYouTube": false,
+            "body": "Empty plots of land that are claimed must have clear bounderies. An unbroken wall or line must surround. Pillars and signs are not valid.",
+            "ending": ""
+        },
+        {
+            "title": "Private Property Law :: #3",
+            "subtitle": "I need my personal space!",
+            "media": "https://i.imgur.com/JtGifFD.png",
+            "isYouTube": false,
+            "body": "Please build no closer than 8 chunks away from other claims. An easy way to do this is to set render distance to 8 and walk around where you want to build. Ask permission before building closer than 8 chunks.",
+            "ending": ""
+        },
+        {
+            "title": "Private Property Law :: #4",
+            "subtitle": "Do not abandon!",
+            "media": "https://i.imgur.com/nuFzOki.png",
+            "isYouTube": false,
+            "body": "Do not claim plots of land and abandon it. After 30d it's grounds for the claim to be removed. Only a staff member can remove a claim legally.",
             "ending": ""
         }
     ]

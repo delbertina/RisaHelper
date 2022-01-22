@@ -24,4 +24,20 @@
         padding-bottom: 20px;
         text-align: center;
     }
+    .discord-frame {
+        width:728px;
+        height:74px;
+        max-width:100%;
+        border:none;
+        display:block;
+        margin:auto;
+        background-color:#7289DA;
+        cursor: pointer;
+        .discord-frame-inner{
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            justify-content: space-between;
+        }
+    }
 }
