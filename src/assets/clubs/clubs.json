@@ -2,67 +2,83 @@
     "club-list":
     [
         {
-            "title": "No Griefing",
-            "subtitle": "If it's not yours, don't touch it!",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Staff Team",
+            "subtitle": "Keeping the server running!",
+            "media": "https://i.imgur.com/yjfhm7q.png",
             "isYouTube": false,
-            "body": "",
+            "body": "The staff team works to keep the server running smoothly. Punishing players, cleaning up griefing, and keeping the peace. Consists of active, inactive, and former staff team members.",
             "ending": ""
         },
         {
-            "title": "No Swearing",
-            "subtitle": "We're family-friendly",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Build Team",
+            "subtitle": "Crafting Eye Candy!",
+            "media": "https://i.imgur.com/RFOonSt.png",
             "isYouTube": false,
-            "body": "",
+            "body": "The build team creates awesome builds for various server uses. The warp point area for various build events was built by them as well as spawn and various other places around the server.",
             "ending": ""
         },
         {
-            "title": "No Hacking",
-            "subtitle": "We play fair!",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "MantaRay Ambassadors",
+            "subtitle": "Making New Players Feel Welcome!",
+            "media": "https://i.imgur.com/KPxCnze.png",
             "isYouTube": false,
-            "body": "",
+            "body": "The MantaRays are a group of active players that help new players find their footing on the server. They also spend time keeping the server clean of builds that are against the rules. This is commonly refered to as 'Legal Griefing'.",
             "ending": ""
         },
         {
-            "title": "No Bullying",
-            "subtitle": "Respect each other",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Social Projects Groups",
+            "subtitle": "Reporting On The Haps!",
+            "media": "https://i.imgur.com/a1RTMFK.png",
             "isYouTube": false,
-            "body": "",
+            "body": "The 3 social project groups strive to document things happening in the community. The yearbook publishes yearly releases of a digital book. The newspaper strives to publish monthly releases. The social media group maintains the server's presense on social media such as Twitter & Instagram.",
             "ending": ""
         },
         {
-            "title": "No Spamming",
-            "subtitle": "Keep chat kosher",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Event Planning Group",
+            "subtitle": "Fun Times All Around",
+            "media": "https://i.imgur.com/2u0eSMq.png",
             "isYouTube": false,
-            "body": "",
+            "body": "The event planning group is always planning the next great event. Events are an important part of this community and keeps the fun fresh. This group is always looking for new and fresh ideas for events.",
             "ending": ""
         },
         {
-            "title": "No Advertising",
-            "subtitle": "Poaching ain't cool",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Mini-Mob-Quest Group",
+            "subtitle": "Lore Time!",
+            "media": "https://i.imgur.com/b1HxVZs.png",
             "isYouTube": false,
-            "body": "",
+            "body": "This group plans and creates new minigames, mob arenas, and quests for the server. This group works closely with the event planning group sometimes to make special things for extra special events on the server.",
             "ending": ""
         },
         {
-            "title": "English Only",
-            "subtitle": "No habla ingles",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Project Rhodes",
+            "subtitle": "Keeping Everyone Connected!",
+            "media": "https://i.imgur.com/dTVWChb.png",
             "isYouTube": false,
-            "body": "",
+            "body": "The Project Rhodes club works to expand the overworld's road system to connect every corner of the map and be very walkable. They organize pow wows to dig out, place the ice, and design the roads that go in around the server.",
             "ending": ""
         },
         {
-            "title": "No Lag Machines",
-            "subtitle": "Save some frames for us",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Club 118",
+            "subtitle": "Nether Fear!",
+            "media": "https://i.imgur.com/5X0kHWc.png",
             "isYouTube": false,
-            "body": "",
+            "body": "This club is named after the perfect Y level in the nether to make a nether portal and nether highway. This club is somewhat mirrored after the project rhodes club but for the nether. This club helps insure the nether portal situation doesn't get out of hand by helping people follow the nether rules.",
+            "ending": ""
+        },
+        {
+            "title": "Dungeons & Dragons",
+            "subtitle": "Bubble bubble, toil & trouble!",
+            "media": "https://i.imgur.com/caqwW23.png",
+            "isYouTube": false,
+            "body": "This club is currently looking for a dungeon master! Numerous people within the community are interested in playing, but we have not found a DM yet to lead the group on awesome adventures yet.",
+            "ending": ""
+        },
+        {
+            "title": "Coding Club",
+            "subtitle": "Hacker Man!",
+            "media": "https://i.imgur.com/MFPUCpI.jpg",
+            "isYouTube": false,
+            "body": "The coding club is one of the oldest clubs within the community. The club strives to connect everyone who wants to code with useful resources to learn how. They build numerous helpful tools for within the community such as this very website!",
             "ending": ""
         }
     ]

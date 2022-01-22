@@ -4,7 +4,15 @@
         {
             "title": "No Griefing",
             "subtitle": "If it's not yours, don't touch it!",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "media": "https://i.imgur.com/AOvQ25E.png",
+            "isYouTube": false,
+            "body": "",
+            "ending": ""
+        },
+        {
+            "title": "No Bad Builds",
+            "subtitle": "Useless, trolly, gaudy, or offensive not allowed!",
+            "media": "https://i.imgur.com/akP7vw8.png",
             "isYouTube": false,
             "body": "",
             "ending": ""
@@ -12,7 +20,7 @@
         {
             "title": "No Swearing",
             "subtitle": "We're family-friendly",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "media": "https://i.imgur.com/x4NVfCW.png",
             "isYouTube": false,
             "body": "",
             "ending": ""
@@ -20,7 +28,7 @@
         {
             "title": "No Hacking",
             "subtitle": "We play fair!",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "media": "https://i.imgur.com/7WdPCvq.png",
             "isYouTube": false,
             "body": "",
             "ending": ""
@@ -28,7 +36,7 @@
         {
             "title": "No Bullying",
             "subtitle": "Respect each other",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "media": "https://i.imgur.com/DZVkUzM.png",
             "isYouTube": false,
             "body": "",
             "ending": ""
@@ -36,7 +44,7 @@
         {
             "title": "No Spamming",
             "subtitle": "Keep chat kosher",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "media": "https://i.imgur.com/dTVWChb.png",
             "isYouTube": false,
             "body": "",
             "ending": ""
@@ -44,7 +52,7 @@
         {
             "title": "No Advertising",
             "subtitle": "Poaching ain't cool",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "media": "https://i.imgur.com/P60U4FB.png",
             "isYouTube": false,
             "body": "",
             "ending": ""
@@ -52,7 +60,7 @@
         {
             "title": "English Only",
             "subtitle": "No habla ingles",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "media": "https://i.imgur.com/CHjiaci.png",
             "isYouTube": false,
             "body": "",
             "ending": ""
@@ -60,7 +68,7 @@
         {
             "title": "No Lag Machines",
             "subtitle": "Save some frames for us",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "media": "https://i.imgur.com/F7w8BDA.png",
             "isYouTube": false,
             "body": "",
             "ending": ""

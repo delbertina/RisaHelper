@@ -2,67 +2,115 @@
     "plugin-list":
     [
         {
-            "title": "No Griefing",
-            "subtitle": "If it's not yours, don't touch it!",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "CMI",
+            "subtitle": "Warps, Homes, & More (Oh My!)",
+            "media": "https://i.imgur.com/gNuP4Pf.png",
             "isYouTube": false,
-            "body": "",
+            "body": "CMI is an essential plugin for our server. It adds numerous modern features like a warp GUI, home GUI among numerous other behind the scenes features.",
             "ending": ""
         },
         {
-            "title": "No Swearing",
-            "subtitle": "We're family-friendly",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "McMMO",
+            "subtitle": "Level Up!",
+            "media": "https://i.imgur.com/l1Zch15.png",
             "isYouTube": false,
-            "body": "",
+            "body": "McMMO is the most popular and long-standing RPG plugin for Minecraft servers. It adds numerous skill trees & abilities. Visit their wiki for full info as the plugin is always being updated!",
             "ending": ""
         },
         {
-            "title": "No Hacking",
-            "subtitle": "We play fair!",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Jobs",
+            "subtitle": "Pay me, good sir!",
+            "media": "https://i.imgur.com/pTUuDIV.png",
             "isYouTube": false,
-            "body": "",
+            "body": "Join a job to start earning money for doing normal stuff! You can change at any time and rank up to be able to take more jobs at once. You get paid and you keep the items!",
             "ending": ""
         },
         {
-            "title": "No Bullying",
-            "subtitle": "Respect each other",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Ranks",
+            "subtitle": "Higher and Higher!",
+            "media": "https://i.imgur.com/ueY64Xx.png",
             "isYouTube": false,
-            "body": "",
+            "body": "Buy ranks with in-game money. No pay to win P2W junk here! Each rank gives different perks. Once you reach the end you can prestige for your pick at an extra special reward!",
             "ending": ""
         },
         {
-            "title": "No Spamming",
-            "subtitle": "Keep chat kosher",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Towny",
+            "subtitle": "Protect Your Land",
+            "media": "https://i.imgur.com/a1RTMFK.png",
             "isYouTube": false,
-            "body": "",
+            "body": "Griefing isn't allowed, but if you want more control over your land you can start a town. It costs rent every day to keep the town, but The Kingship Act is the buying equivalent to renting a town.",
             "ending": ""
         },
         {
-            "title": "No Advertising",
-            "subtitle": "Poaching ain't cool",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "CoreProtect",
+            "subtitle": "Your Blocks are Protected",
+            "media": "https://i.imgur.com/x4NVfCW.png",
             "isYouTube": false,
-            "body": "",
+            "body": "This plugin is more behind the scenes for most, but if you ever get griefed or stolen from it's all logged. Any player can check the logs and let a staff member know if there's been some rule breaking.",
             "ending": ""
         },
         {
-            "title": "English Only",
-            "subtitle": "No habla ingles",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "ChestShop",
+            "subtitle": "Sell From a Chest",
+            "media": "https://i.imgur.com/fuMcoQR.png",
             "isYouTube": false,
-            "body": "",
+            "body": "Any player can make a chest and put a sign on it to sell stuff to other players. Visit the South Spawn Shopping Square on the server for more information on how to set up a chest shop.",
             "ending": ""
         },
         {
-            "title": "No Lag Machines",
-            "subtitle": "Save some frames for us",
-            "media": "https://i.imgur.com/5aKgUhL.png",
+            "title": "Quests",
+            "subtitle": "Discover Endless Lore",
+            "media": "https://i.imgur.com/b1HxVZs.png",
             "isYouTube": false,
-            "body": "",
+            "body": "We currently have over 100 unique quests and counting. Hundreds of hours of content to explore and earn rewards from! Most quest givers are located around the main spawn area.",
+            "ending": ""
+        },
+        {
+            "title": "Minigames",
+            "subtitle": "Game to Your Heart's Content",
+            "media": "https://i.imgur.com/WmCgp7A.png",
+            "isYouTube": false,
+            "body": "We have many years of parkours and mazes as well as multiplayer minigames such as spleef. You can earn in-game money by completing all of these minigames!",
+            "ending": ""
+        },
+        {
+            "title": "MobArena",
+            "subtitle": "Multi-round Mob Battle",
+            "media": "https://i.imgur.com/eWMcZOz.png",
+            "isYouTube": false,
+            "body": "Climb the leaderboard and outlast the mobs in a wave-based arena full of mobs that you can play solo or with a team of people. It is one of the best ways to power level numerous McMMO skills.",
+            "ending": ""
+        },
+        {
+            "title": "Voting",
+            "subtitle": "Vote for the Server & Earn Rewards",
+            "media": "https://i.imgur.com/T7zMunz.png",
+            "isYouTube": false,
+            "body": "One of the ways new players find our server is from our server appearing on server lists. By voting for us, you help our server rank higher and have more people see us.",
+            "ending": ""
+        },
+        {
+            "title": "CraftBook",
+            "subtitle": "Amazing Fancy Features",
+            "media": "https://i.imgur.com/F7w8BDA.png",
+            "isYouTube": false,
+            "body": "This plugin provides numerous small yet cool features. Elevator signs, hidden switches, ammeter, lightstone, painting switcher, xp storer, and many more!",
+            "ending": ""
+        },
+        {
+            "title": "Custom Plugins",
+            "subtitle": "Ooo What Does This Do?",
+            "media": "https://i.imgur.com/V8SShRz.png",
+            "isYouTube": false,
+            "body": "We have numerous custom functionality that isn't just a plugin you can download. Our FAQ menu, minigames GUI, bath bomb rewards, boost status, respawn shulkers, dragon drops elytra, and many more!",
+            "ending": ""
+        },
+        {
+            "title": "Custom Advancements",
+            "subtitle": "Track Your Progress!",
+            "media": "https://i.imgur.com/WkfFcrY.png",
+            "isYouTube": false,
+            "body": "Numerous cool aspects of the server have custom advancements so you can keep track of how far you've come with all of our custom stuff. Voting milestones, old events, etc.",
             "ending": ""
         }
     ]
