@@ -18,16 +18,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
     .top-info-body {
+        padding: 20px;
         width: 80%;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         text-align: center;
     }
     .discord-frame {
-        width:728px;
+        width:100%;
         height:74px;
-        max-width:100%;
+        max-width:728px;
         border:none;
         display:block;
         margin:auto;
