@@ -2,7 +2,7 @@
 
 ## Site Links
 
-[Main Page](https://delbertina.github.io/risa-helper/)
+[Main Page](https://magnarisa.net)
 
 # How to Run
 
