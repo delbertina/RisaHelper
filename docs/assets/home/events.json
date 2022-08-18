@@ -1,6 +1,10 @@
 {
     "current-events":
     [
+        
+    ],
+    "past-events":
+    [
         {
             "title": "Month of Holiday Spirit",
             "subtitle": "Festive events all month long!",
@@ -40,10 +44,7 @@
             "isYouTube": false,
             "body": "We are dropping 4 new minigames this month! Some from old maps, some never before seen, but all are amazing. Ice Tower, Bail Santa, Blackout, and a mystery game!",
             "ending": "Dec 3rd, 10th, 17th & 24th"
-        }
-    ],
-    "past-events":
-    [
+        },
         {
             "title": "Month of Harvest",
             "subtitle": "A month celebrating the harvest!",
