@@ -1,8 +1,13 @@
 <div class="top-info">
     <div class="top-info-body">
         <h3>MagnaRisa, the best friends you'll ever have.</h3>
-        Our community is mainly focused around a Minecraft SMP server, but we also often play other games and just hangout.
-        Join our Discord to hang out with everyone and join our Minecraft SMP to craft some friendships.
+        Originally founded around a survival Minecraft server back in 2010, 
+        this community is all about gaming together and forming friendships that last a lifetime.
+        Some of the games we play besides Minecraft are Among Us, Hypixel, Fall Guys, Deep Rock Galactic, Fortnite, and various browser games. 
+        MagnaRisa loosely translates to large laugh and there's no shortage of those around here. 
+        The community is built around the pillars of inclusion, family-friendliness, 
+        respect for others, and striving to build each other up to be better. 
+        <br><br>Join our Discord to hang out with everyone and craft some friendships.
     </div>
     <div class="discord-frame" allowtransparency="true" (click)="openNewTab(discordURL)">
         <div class="discord-frame-inner">
@@ -10,19 +15,27 @@
             <p><b>{{randomOnline(100,200)}}</b> Members Online</p>
         </div>
     </div>
-    <iframe
-        style="width:100%;height:90px;max-width:728px;border:none;display:block;margin:auto" 
-        src="https://namemc.com/server/magnarisa.net/embed" 
-        width="728" height="90"
-    ></iframe>
 </div>
 
-<div class="home-content-grid">
-    <app-card *ngFor="let event of currentEvents" [CardContent]="event"></app-card>
-</div>
-<mat-toolbar color="accent" class="center-toolbar">
-    <h2>Previous Events</h2>
-</mat-toolbar>
-<div class="home-content-grid">
-    <app-card *ngFor="let event of pastEvents" [CardContent]="event"></app-card>
+<div>
+    <mat-toolbar color="accent" class="center-toolbar">
+        <h2>Minecraft SMP</h2>
+    </mat-toolbar>
+    <div>
+        <iframe
+            class="server-frame"
+            style="width:100%;height:90px;max-width:728px;border:none;display:block;margin:auto" 
+            src="https://namemc.com/server/magnarisa.net/embed" 
+            width="728" height="90">
+        </iframe>
+    </div>
+    <div class="home-content-grid">
+        <app-card *ngFor="let event of currentEvents" [CardContent]="event"></app-card>
+    </div>
+    <mat-toolbar class="center-toolbar">
+        <h2>Previous Events</h2>
+    </mat-toolbar>
+    <div class="home-content-grid">
+        <app-card *ngFor="let event of pastEvents" [CardContent]="event"></app-card>
+    </div>
 </div>
